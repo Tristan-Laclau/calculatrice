@@ -48,3 +48,23 @@ button:hover {
 button:active {
   background-color: #bbb;
 }
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 0px;
+  color: black;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+.first-part {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.second-part {
+  text-align: right;
+  font-size: 2.5rem;
+}
